@@ -1,0 +1,135 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>3</title>
+    <style>
+      * {
+        margin: 0;
+        padding: 0;
+        box-sizing: border-box;
+      }
+      body {
+        background-color: aquamarine;
+      }
+      :root {
+        --color: rgb(255, 0, 183);
+        --bgcolor: rgb(124, 21, 21);
+      }
+      ul.a1 {
+        list-style-type: none;
+        margin: 0;
+        padding: 0;
+        /* overflow: hidden; */
+        background-color: var(--color);
+        position: fixed;
+        width: 100%;
+      }
+
+      li {
+        float: left;
+      }
+
+      li a {
+        display: inline-block;
+        color: white;
+        text-align: center;
+        padding: 14px 16px;
+        text-decoration: none;
+      }
+
+      li a:hover {
+        background-color: #111;
+      }
+      nav {
+        float: left;
+        width: 30%;
+        height: 600px;
+        background: var(--bgcolor);
+        padding: 20px;
+        margin: 107px;
+        margin-top: 70px;
+      }
+      nav h1 {
+        font-size: 50px;
+        padding: 15px;
+      }
+      nav.distance {
+        margin-left: 226px;
+      }
+      .box3 {
+        background-color: rgb(58, 189, 187);
+        border: 1px solid black;
+        border-radius: 40px;
+        height: 20vh;
+        width: 80vw;
+        margin: auto;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        position: relative;
+      }
+      footer {
+        background-color: rgb(114, 230, 91);
+        color: black;
+        border: 2px solid black;
+        height: 25vh;
+        width: 100%;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        position: relative;
+        top: 20px;
+      }
+      p{
+        font-size: 40px;
+      }
+      .logo {
+        justify-content: end;
+        display: flex;
+        position: fixed;
+        bottom: 20px;
+        right: 20px;
+        z-index: 1;
+      }
+      .logo img {
+        width: 100px;
+        height: auto;
+      }
+    </style>
+  </head>
+  <body>
+    <header>
+      <ul class="a1">
+        <li><a href="#home"></a></li>
+        <li><a href="#news"></a></li>
+        <li><a href="#contact"></a></li>
+        <li><a href="#about"></a></li>
+      </ul>
+    </header>
+    <main>
+      <div>
+      <nav>
+        <!-- <h1>box1</h1> -->
+      </nav>
+      <nav class="distance">
+        <!-- <h1>box2</h1> -->
+      </nav>
+    </div>
+      <div class="box3">
+        <h1>Wellcome to this Sigma Web Development Express</h1>
+      </div>
+      <div class="logo">
+        <img
+          width="120px"
+          src="https://th.bing.com/th/id/OIP.v007smTLAKPOgMV35wldVAHaE8?rs=1&pid=ImgDetMain"
+          alt=""
+        />
+      </div>
+    </main>
+    <footer>
+      <p>Footer</p>
+    </footer>
+  </body>
+</html>
