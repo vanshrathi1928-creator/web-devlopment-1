@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>animattion</title>
+    <style>
+
+        .contaner{
+            height: 50vh;
+            width: 70vh;
+            background-color:lightseagreen;
+        }
+        .box{
+            height: 50px;
+            width: 70px;
+            /* background-color: aqua; */
+            text-align: center;
+            animation-name:VanshRathiKaAnimation;
+            animation-duration: 3s;
+            animation-duration: 1s;
+            animation-timing-function: ease-in-out;
+            /* animation-iteration-count: 3; */
+            animation-delay: 3s;
+            /* animation-play-state: running; */
+            /* animation-direction: alternate-reverse; */
+            /* animation: VanshRathiKaAnimation 1s timing-function 3s iteration-count direction fill-mode; */
+        }
+        @keyframes VanshRathiKaAnimation {
+        from{
+            background-color: red;
+            }
+
+            to{
+                background-color:yellow;
+               transform: translateX(500px) translateY(500px); 
+    
+            }
+        }
+        @keyframes VanshRathiKaAnimation {
+            0%{
+                transform: rotate(100deg);
+            }
+            20%{
+                transform: rotate(200deg);
+            }
+            50%{
+                transform: rotate(220deg);
+            }
+            80%{
+                transform: rotate(300deg);
+            }
+            100%{
+                transform: rotate(310deg);
+            }
+        }
+        
+    </style>
+</head>
+<body>
+    <div class="contaner">
+        <div class="box">box</div>
+    </div>
+</body>
+</html>
