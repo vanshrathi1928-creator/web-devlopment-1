@@ -1,0 +1,103 @@
+
+        .first{
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            gap: 20px;
+            padding: 20px;
+        }
+        .butten1{
+            height: 35px;
+            background-color:#ffd741;
+            font-weight: 700;
+            font-size: larger;
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+            border-radius:15px;
+            border: none;
+        }
+        .firstline{
+            font-size: 40px;
+            align-items: center;
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+        }
+        .secondline{
+            width: 450px;
+            text-align: center;
+            font-size: large;
+        }
+        span img{
+            width: 35px;
+        }
+        .thirdline{
+            display: flex;
+            align-items: center;
+            font-size: larger;
+        }
+
+        .thirdline div:nth-child(1){
+            margin: 9px;
+            font-size: 45px;
+            font-family:sans-serif;
+            font-weight: 1000;
+            font-size: 35px;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            border-radius: 35px;
+            height:60px ;
+            width: 70px;
+            border: 2px solid;
+            background-color: #ffd741;
+        }
+        .box{
+            height: 200px;
+            width: 400px;
+            background-color:rgb(173, 198, 219);
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            align-items: center;
+            padding: 4px;
+            margin: 15px;
+            gap: 15px;
+
+        }
+        .boxfirstline{
+        display: flex;
+        flex-direction: column;
+        text-align: center;
+        justify-content: center;
+        align-items:center;
+        font-size: 35px;
+        
+        }
+
+        .butten2{
+            display: flex;
+            background-color:#ffd741;
+            border-radius: 10px;
+            border: none;
+            font-size: large;
+            font-weight: 600;
+            align-items: center;
+            height: 50px;
+            width: 160px;
+        }
+        .bottem{
+            font-size:10px;
+            word-wrap: break-word;
+            overflow-wrap:break-word;
+            
+        }
+        .down{
+            
+            display: grid;
+            grid-template-columns: 1fr 1fr 1fr;
+            gap:12px
+        }
+        /* @media screen and (max-width: 1145px) {
+    .down{ 
+        grid-template-columns: 1fr; 
+    }
+        } */
+    
