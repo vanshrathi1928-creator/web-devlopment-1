@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>EX=8</title>
+    <style>
+        .contaner{
+            height: 100vh;
+            width: 90vh;
+            background-color:aqua;
+        }
+        .box{
+            height: 100px;
+            width:100px;
+            background-color:red;
+            position: absolute;
+            bottom:0;
+            left: 3;
+            border-radius:100px;
+            animation: animationx 1s linear infinite, animationy 1s ease-out alternate infinite;
+        }
+        @keyframes animationx {
+            from{
+                left: 0;
+            }
+            to{
+                left: 90%; 
+            }  
+        }
+        @keyframes animationy {
+            from{
+                bottom: 0;
+            }
+            to{
+                bottom: 90%;
+            }
+        }
+    </style>
+</head>
+<body>
+    <div class="contaner">
+        <div class="box"></div>
+    </div>
+</body>
+</html>
